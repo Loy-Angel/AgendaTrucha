@@ -45,13 +45,14 @@
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:text="@string/crear_contacto"
-            app:icon="@android:drawable/ic_menu_edit" />
+            app:icon="@android:drawable/ic_menu_add" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="90dp"
-            android:text="@string/editar_contacto" />
+            android:text="@string/editar_contacto"
+            app:icon="@android:drawable/ic_menu_edit" />
 
         <Button
             android:id="@+id/button3"
