@@ -44,7 +44,8 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="90dp"
-            android:text="@string/crear_contacto" />
+            android:text="@string/crear_contacto"
+            app:icon="@android:drawable/ic_menu_edit" />
 
         <Button
             android:id="@+id/button2"
