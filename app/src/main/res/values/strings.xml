@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AgendaTrucha</string>
+    <string name="agenda_2_0">Agenda 2.0</string>
+    <string name="crear_contacto">Crear contacto</string>
+    <string name="button">Button</string>
+    <string name="editar_contacto">Editar contacto</string>
+    <string name="borrar_contacto">Borrar contacto</string>
+    <string name="mostrar_todos_los_contactos">Mostrar todos los contactos</string>
+    <string name="buscar_contacto">Buscar contacto</string>
+</resources>
