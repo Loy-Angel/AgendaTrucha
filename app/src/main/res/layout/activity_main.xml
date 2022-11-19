@@ -58,18 +58,21 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="90dp"
-            android:text="@string/borrar_contacto" />
+            android:text="@string/borrar_contacto"
+            app:icon="@android:drawable/ic_menu_delete" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="90dp"
-            android:text="@string/buscar_contacto" />
+            android:text="@string/buscar_contacto"
+            app:icon="@android:drawable/ic_menu_search" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="90dp"
-            android:text="@string/mostrar_todos_los_contactos" />
+            android:text="@string/mostrar_todos_los_contactos"
+            app:icon="@android:drawable/ic_menu_my_calendar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
