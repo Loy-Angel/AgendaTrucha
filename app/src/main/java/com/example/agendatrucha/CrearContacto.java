@@ -13,12 +13,12 @@ public class CrearContacto extends AppCompatActivity {
         setContentView(R.layout.activity_crear_contacto);
 
         SharedPreferences myShared = = getSharedPreferences("SharedPreferenesAgenda",MODE_PRIVATE);
-        SharedPreferences.Editor myEdit = sharedPreferences.edit();
+        SharedPreferences.Editor editor = sharedPreferences.edit();
         // Storing the key and its value as the data fetched from edittext
-        myEdit.putString("nombre", etNombre.getText().toString());
-        myEdit.putString("apellidos", etApellidos.getText().toString());
-        myEdit.putString("nombre", etNombre.getText().toString());
-        myEdit.putString("apellidos", etApellidos.getText().toString());
-        myEdit.putString("apellidos", etApellidos.getText().toString());
+        editor.putString("nombre", etNombre.getText().toString());
+        editor.putString("apellidos", etApellidos.getText().toString());
+        editor.putString("nombre", etNombre.getText().toString());
+        editor.putString("apellidos", etApellidos.getText().toString());
+        editor.putString("apellidos", etApellidos.getText().toString());
     }
 }
