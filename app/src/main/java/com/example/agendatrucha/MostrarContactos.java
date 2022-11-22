@@ -26,7 +26,7 @@ public class MostrarContactos extends AppCompatActivity {
 
         SharedPreferences myPrefs = getSharedPreferences("SharedPreferencesAgenda",MODE_PRIVATE);
         int idContador = myPrefs.getInt("idContacto",1);
-        listaInterfaz = (ListView)findViewById(R.id.lvListaContactos);
+        listaInterfaz = findViewById(R.id.lvListaContactos);
         ArrayAdapter adaptador;
         //CREAMOS EL ARRAY DE STRING DEL CONTACTO QUE MOSTRAREMOS EN EL LISTVIEW.
         ArrayList<String> listaContactos = new ArrayList<>();
@@ -34,10 +34,7 @@ public class MostrarContactos extends AppCompatActivity {
 
         try
         {
-            BufferedReader fin =
-                    new BufferedReader(
-                            new InputStreamReader(
-                                    openFileInput("contactosAnadidos.txt")));
+            BufferedReader fin = new BufferedReader(new InputStreamReader(openFileInput("contactosAnadidos.txt")));
             String texto;
             //Log.d("TxtRecuperado","*************"+texto);
 

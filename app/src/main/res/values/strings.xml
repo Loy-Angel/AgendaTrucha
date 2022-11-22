@@ -19,4 +19,13 @@
     <string name="tel_fono_del_contacto">Teléfono del Contacto</string>
     <string name="direcci_n_del_contacto">Dirección del Contacto</string>
     <string name="lista_de_contactos">.:Lista de Contactos:.</string>
+    <string name="name">Name:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="tel_fono">Teléfono:</string>
+    <string name="direcci_n">Dirección:</string>
+    <string name="apellidos_del_contacto1">Apellidos del contacto</string>
+    <string name="APELLIDOS">...</string>
+    <string name="telefono">...</string>
+    <string name="direccion">...</string>
+    <string name="NAME">...</string>
 </resources>

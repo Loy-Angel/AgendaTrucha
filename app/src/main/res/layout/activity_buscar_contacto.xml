@@ -29,6 +29,29 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutApe"
+        android:layout_width="399dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        app:layout_constraintVertical_bias="0.050000012">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:backgroundTint="@null"
+            android:foregroundTint="@null"
+            android:gravity="center"
+            android:hint="@string/apellidos_del_contacto1"
+            android:singleLine="true"
+            android:textColorHint="#616161" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -36,8 +59,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
-        app:layout_constraintVertical_bias="0.01999998">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutApe"
+        app:layout_constraintVertical_bias="0.07999998">
 
         <Button
             android:id="@+id/volver"
@@ -45,15 +68,18 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="volver"
             android:text="@string/volver" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/Buscar"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="buscar"
             android:text="@string/buscar"
-            style="?android:attr/buttonBarButtonStyle" />
+            tools:ignore="UsingOnClickInXml" />
 
     </LinearLayout>
 

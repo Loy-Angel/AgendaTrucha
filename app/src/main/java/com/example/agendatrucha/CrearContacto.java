@@ -58,8 +58,7 @@ public class CrearContacto extends AppCompatActivity {
 
                 try {
                     String separator = System.getProperty("line.separator");
-                    OutputStreamWriter fout = new OutputStreamWriter(
-                            openFileOutput("contactosAnadidos.txt", Context.MODE_APPEND));
+                    OutputStreamWriter fout = new OutputStreamWriter(openFileOutput("contactosAnadidos.txt", Context.MODE_APPEND));
                     fout.write(contacto.getId()+", "+contacto.getNombre().toString()+", "+contacto.getApellidos().toString()+", "+contacto.getTelefono().toString()+", "+contacto.getDireccion().toString());
                     fout.append(separator);
                     fout.close();
