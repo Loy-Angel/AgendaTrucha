@@ -13,6 +13,13 @@
         android:theme="@style/Theme.AgendaTrucha"
         tools:targetApi="31">
         <activity
+            android:name=".MostrarContacto"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MostrarContactos"
             android:exported="false">
             <meta-data

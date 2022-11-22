@@ -7,4 +7,16 @@
     <string name="borrar_contacto">Borrar contacto</string>
     <string name="mostrar_todos_los_contactos">Mostrar todos los contactos</string>
     <string name="buscar_contacto">Buscar contacto</string>
+    <string name="buscar">Buscar</string>
+    <string name="nombre_del_contacto">Nombre del contacto</string>
+    <string name="volver">Volver</string>
+    <string name="buscarContacto">Buscar contacto</string>
+    <string name="a_adir_contacto">.:Añadir Contacto:.</string>
+    <string name="a_adir_contacto1">.:Añadir Contacto:.</string>
+    <string name="mostrar_lista_de_contactos">.:Mostrar Lista de Contactos:.</string>
+    <string name="nombre_del_contacto1">Nombre del Contacto</string>
+    <string name="apellidos_del_contacto">Apellidos del Contacto</string>
+    <string name="tel_fono_del_contacto">Teléfono del Contacto</string>
+    <string name="direcci_n_del_contacto">Dirección del Contacto</string>
+    <string name="lista_de_contactos">.:Lista de Contactos:.</string>
 </resources>

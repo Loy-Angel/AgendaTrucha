@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
@@ -41,37 +42,47 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/crear"
             android:layout_width="match_parent"
             android:layout_height="90dp"
+            android:onClick="boton"
             android:text="@string/crear_contacto"
+            android:tag="1"
             app:icon="@android:drawable/ic_menu_add" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/editar"
             android:layout_width="match_parent"
             android:layout_height="90dp"
+            android:onClick="boton"
+            android:tag="2"
             android:text="@string/editar_contacto"
             app:icon="@android:drawable/ic_menu_edit" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/borrar"
             android:layout_width="match_parent"
             android:layout_height="90dp"
+            android:onClick="boton"
+            android:tag="3"
             android:text="@string/borrar_contacto"
             app:icon="@android:drawable/ic_menu_delete" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/buscar"
             android:layout_width="match_parent"
             android:layout_height="90dp"
+            android:onClick="boton"
+            android:tag="4"
             android:text="@string/buscar_contacto"
             app:icon="@android:drawable/ic_menu_search" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/all"
             android:layout_width="match_parent"
             android:layout_height="90dp"
+            android:onClick="boton"
+            android:tag="5"
             android:text="@string/mostrar_todos_los_contactos"
             app:icon="@android:drawable/ic_menu_my_calendar" />
     </LinearLayout>

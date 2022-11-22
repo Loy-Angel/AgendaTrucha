@@ -6,4 +6,96 @@
     android:layout_height="match_parent"
     tools:context=".CrearContacto">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#2196F3"
+                android:backgroundTint="#2196F3"
+                android:text="@string/a_adir_contacto"
+                android:textAlignment="center"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etNombreAC"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="25dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/nombre_del_contacto1"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/etApellidosAC"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="25dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/apellidos_del_contacto"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/etTelefonoAC"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="25dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/tel_fono_del_contacto"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/etDireccionAC"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="25dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/direcci_n_del_contacto"
+                android:autofillHints="" />
+
+            <Button
+                android:id="@+id/bAnadirContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="25dp"
+                android:text="@string/a_adir_contacto1"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <Button
+                android:id="@+id/btMostrarLista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="25dp"
+                android:text="@string/mostrar_lista_de_contactos" />
+        </LinearLayout>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
