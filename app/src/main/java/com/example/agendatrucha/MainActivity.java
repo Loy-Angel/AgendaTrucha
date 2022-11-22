@@ -26,10 +26,6 @@ public class MainActivity extends AppCompatActivity {
                 sc2.putExtra("Buscar", 1);
                 startActivity(sc2);
                 break;
-            case 3:
-                Intent sc3 = new Intent(this, BorrarContacto.class);
-                startActivity(sc3);
-                break;
             case 4:
                 Intent sc4 = new Intent(this, BuscarContacto.class);
                 sc4.putExtra("Buscar", 0);
