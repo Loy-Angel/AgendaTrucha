@@ -93,7 +93,9 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="70dp"
                 android:layout_marginRight="25dp"
-                android:text="@string/mostrar_lista_de_contactos" />
+                android:onClick="volver"
+                android:text="@string/volver"
+                tools:ignore="UsingOnClickInXml" />
         </LinearLayout>
 
     </LinearLayout>

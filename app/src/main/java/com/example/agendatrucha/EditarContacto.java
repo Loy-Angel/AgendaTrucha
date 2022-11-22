@@ -3,6 +3,7 @@ package com.example.agendatrucha;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -105,9 +106,16 @@ public class EditarContacto extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
-
-                Intent i = new Intent(this, MainActivity.class);
-                startActivity(i);
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setMessage("Los datos han sido guardados con exito.")
+                        .setTitle("Datos guardados")
+                        .setPositiveButton("Vale", (dialog, id) -> {
+                            Intent intent = new Intent(this, MainActivity.class);
+                            startActivity(intent);
+                        })
+                        .setNegativeButton("", null);
+                // Create the AlertDialog object and return it
+                builder.show();
             });
         }
     }

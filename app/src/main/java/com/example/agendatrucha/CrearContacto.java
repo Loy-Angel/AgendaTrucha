@@ -80,13 +80,10 @@ public class CrearContacto extends AppCompatActivity {
                 Toast.makeText(CrearContacto.this,contacto.getDireccion().toString(), Toast.LENGTH_LONG).show();
             }
         });
+    }
 
-        btMostrarListaContactos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(CrearContacto.this, MostrarContactos.class);
-                startActivity(i);
-            }
-        });
+    public void volver(View v){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }

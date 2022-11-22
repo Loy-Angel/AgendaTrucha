@@ -36,9 +36,19 @@
             <ListView
                 android:id="@+id/lvListaContactos"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="527dp"
                 android:layout_margin="15dp"
-                android:backgroundTint="#3F51B5" />
+                android:backgroundTint="#3F51B5">
+
+            </ListView>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:onClick="volver"
+                android:text="@string/volver"
+                tools:ignore="UsingOnClickInXml" />
         </LinearLayout>
     </LinearLayout>
 

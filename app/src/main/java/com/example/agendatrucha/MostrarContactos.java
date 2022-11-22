@@ -3,6 +3,7 @@ package com.example.agendatrucha;
 import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
@@ -89,5 +90,10 @@ public class MostrarContactos extends AppCompatActivity {
                 return true;
             }
         });
+    }
+
+    public void volver(View v){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
