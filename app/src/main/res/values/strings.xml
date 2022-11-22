@@ -28,4 +28,7 @@
     <string name="telefono">...</string>
     <string name="direccion">...</string>
     <string name="NAME">...</string>
+    <string name="guardar">Guardar</string>
+    <string name="editar_contacto2">Editar Contacto</string>
+    <string name="mostrar_contacto">Mostrar Contacto</string>
 </resources>

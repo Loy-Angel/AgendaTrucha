@@ -34,7 +34,7 @@
 
     <LinearLayout
         android:layout_width="277dp"
-        android:layout_height="473dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,8 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:onClick="boton"
-            android:text="@string/crear_contacto"
             android:tag="1"
+            android:text="@string/crear_contacto"
             app:icon="@android:drawable/ic_menu_add" />
 
         <Button

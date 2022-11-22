@@ -6,4 +6,136 @@
     android:layout_height="match_parent"
     tools:context=".EditarContacto">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="103dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_500"
+            android:gravity="center"
+            android:text="@string/editar_contacto2"
+            android:textColor="@color/white"
+            app:autoSizeMaxTextSize="50dp"
+            app:autoSizeMinTextSize="20dp"
+            app:autoSizeTextType="uniform" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/etNombreAC"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="0dp"
+            android:autofillHints=""
+            android:ems="0"
+            android:inputType="textPersonName"
+            android:text="@string/nombre_del_contacto1" />
+
+        <TextView
+            android:id="@+id/Apellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/apellidos" />
+
+        <EditText
+            android:id="@+id/etApellidosAC"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="0dp"
+            android:autofillHints=""
+            android:ems="0"
+            android:inputType="textPersonName"
+            android:text="@string/apellidos_del_contacto" />
+
+        <TextView
+            android:id="@+id/Tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/tel_fono" />
+
+        <EditText
+            android:id="@+id/etTelefonoAC"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="0dp"
+            android:autofillHints=""
+            android:ems="5"
+            android:inputType="textPersonName"
+            android:text="@string/tel_fono_del_contacto" />
+
+        <TextView
+            android:id="@+id/Dire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/direcci_n" />
+
+        <EditText
+            android:id="@+id/etDireccionAC"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="0dp"
+            android:autofillHints=""
+            android:ems="5"
+            android:inputType="textPersonName"
+            android:text="@string/direcci_n_del_contacto" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/volver"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/volver" />
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/guardar" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(sc1);
                 break;
             case 2:
-                Intent sc2 = new Intent(this, EditarContacto.class);
+                Intent sc2 = new Intent(this, BuscarContacto.class);
+                sc2.putExtra("Buscar", 1);
                 startActivity(sc2);
                 break;
             case 3:
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 4:
                 Intent sc4 = new Intent(this, BuscarContacto.class);
+                sc4.putExtra("Buscar", 0);
                 startActivity(sc4);
                 break;
             case 5:
